@@ -8,7 +8,7 @@ public abstract class BaseRepository<TEntity>(AppDbContext context) : IBaseRepos
     where TEntity : class
 {
     protected readonly AppDbContext Context = context;
-    
+    public async Task<TEntity?> FindAsync(int id) => await Context.Set<TEntity>().FindAsync(id);
     public async Task AddAsync(TEntity entity) => await Context.Set<TEntity>().AddAsync(entity);
 
     public async Task<TEntity?> FindByIdAsync(int id) => await Context.Set<TEntity>().FindAsync(id);

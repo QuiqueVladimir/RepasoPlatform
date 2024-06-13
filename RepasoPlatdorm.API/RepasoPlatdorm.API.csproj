@@ -19,16 +19,9 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Todo\Application\Internal\CommandServices\" />
-      <Folder Include="Todo\Application\Internal\QueryServices\" />
       <Folder Include="Todo\Domain\Model\Aggregates\" />
-      <Folder Include="Todo\Domain\Model\Entities\" />
       <Folder Include="Todo\Domain\Model\Events\" />
-      <Folder Include="Todo\Domain\Model\Queries\" />
-      <Folder Include="Todo\Domain\Repositories\" />
-      <Folder Include="Todo\Domain\Services\" />
       <Folder Include="Todo\Infrastructure\Persistence\EFC\Configuration\Extensions\" />
-      <Folder Include="Todo\Infrastructure\Persistence\EFC\Repositories\" />
       <Folder Include="Todo\Interfaces\REST\Resources\" />
       <Folder Include="Todo\Interfaces\REST\Transform\" />
     </ItemGroup>
